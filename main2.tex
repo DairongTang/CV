@@ -1,0 +1,89 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{}{汤岱蓉}
+
+\address{静安区延安西路355号}{200040 上海市}{中国}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{15221510289}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{88813088}                    % optional, remove / comment the line if not wanted
+
+\email{tang199506@126.com}                               % optional, remove / comment the line if not wanted
+
+\photo[64pt][0.4pt]{IMG_1191.JPG}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2017}{英国利兹大学}{戏剧与表演专业}{主修活动节日策划与表演文化流变}{\textit{}}{}  % arguments 3 to 6 can be left empty
+\cventry{2014——2018}{上海戏剧学院}{戏剧影视文学}{编剧专业}{\textit{大三在读}}{奖学金二等奖；GPA：4.21}
+
+
+\section{Experience}
+\subsection{Vocational}
+
+\cventry{2017/05/1}{编剧}{\textbf{儿童益智舞台剧《至慧兔的奇妙数学之旅——寻找神奇种子》}}{上海·黄浦剧场}{}{由国际导演顾译监制，联合上海九译传媒有限公司，智慧学堂联合打造的儿童益智舞台剧，戏剧性结合数感元素，为数学教育提供新的教育理念}
+
+\cventry{2017/04/05}{编剧}{\textbf{上海戏剧学院大创项目微电影《理发》}}{上海·上海戏剧学院}{制作中}{电影着眼于失孤老人题材，但大部分电影着眼于对孩子的寻觅，鲜少有人关注成人的心灵。《理发》中我们将儿童作为一个结局，将成人心灵的重塑作为电影展现的核心。}
+
+\cventry{2017/03/29}{编剧}{\textbf{戏剧教育与应用中心作品《开心农场》}}{上海·上海世界外国语小学}{}{《开心农场》是尝试将戏剧与EQ教育相结合，通过三大教育点和四大体验式阅读元素的结合，向小朋友传授正确的情绪表达方式}
+
+\cventry{2016/04/10}{编剧}{\textbf{励志校园喜剧《学霸张——一个鸡腿引发的逆袭》}}{上海·可当代艺术中心}{}{由九岸国际董事局，精锐教育集团，上海九译影视传媒有限公司发起的集结话剧、喜剧、漫画元素的国内首部校园励志喜剧，也是首次跨教育、出版、影视、文创界单位合作成功的盛事。}
+
+\cventry{2016/06/3}{主讲人}{\textbf{阅读点亮心灯——《朗读者》分享讲座}}{上海·嘉定图书馆}{}{由嘉定区残疾人联合会指导，嘉定区图书馆主办的电影《朗读者》分享会，向残联文艺爱好者分享由名著改编电影的特征，受到文艺爱好者的好评}
+
+\cventry{2016/05/10}{舞台监督}{\textbf{上海戏剧学院琢壳计划项目作品多媒体舞台剧《画壁》}}{上海·上海戏剧学院黑匣子剧场}{}{负责《画壁》创新型项目的舞台布景转换，导演助理}
+
+\cventry{2015——今}{场务管理}{\textbf{上戏剧院、马兰花儿童剧场}}{上海}{}{作为兼职生协助剧场经理完成剧场检查与监督，票务，引导等工作}
+\subsection{Miscellaneous}
+\cventry{2012/08}{国家级业余小提琴十级}{}{}{}{}
+
+\section{Languages}
+\cvitemwithcomment{}{大学英语四六级、雅思成绩6.5}{}
+\section{Interests}
+\cvitem{hobby }{\textbf{摄影、写作与阅读、小提琴}}
+
+
+\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
